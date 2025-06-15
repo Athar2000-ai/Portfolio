@@ -1,0 +1,73 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e2e8f0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: #1e40af;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.btn:hover {
+  background-color: #2563eb;
+}
+
+
+
+# Makes it responsive
+@media (max-width: 768px) {
+  header, section {
+    padding: 1rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .project {
+    font-size: 0.95rem;
+  }
+}
+
