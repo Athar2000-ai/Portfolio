@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  
-  <style>
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
-
+<head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Athar Waqas | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
- <link rel="icon" href="https://yourdomain.com/favicon.png">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Athar Waqas</h1>
-    <p>AI & DevOps Enthusiast | Digital Trainee @ Zong</p>
+    <h1 data-aos="fade-down">Hi, I'm Athar Waqas</h1>
+    <p data-aos="fade-up">Engineering Graduate | AI & Networking Enthusiast</p>
+    <button id="theme-toggle">Toggle Dark/Light</button>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
@@ -26,32 +24,45 @@
     </nav>
   </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-right">
     <h2>About Me</h2>
-    <p>I’m an engineering graduate passionate about AI, automation, and building clean digital solutions. Currently working at Zong CMPak as a Digital Trainee Executive.</p>
- <a href="https://example.com/your_resume.pdf" target="_blank" class="btn">Download Resume</a>
-
+    <p>Recent graduate with hands-on experience in AI, ML, and Networking. Passionate about building solutions that matter.</p>
   </section>
 
-  <section id="projects">
+  <section id="projects" data-aos="fade-left">
     <h2>Projects</h2>
     <div class="project">
-  <h3>Stock Price Predictor</h3>
-  <p>A deep learning-based LSTM model to forecast stock trends using historical data.</p>
-  <p><strong>Tech:</strong> Python, TensorFlow, Matplotlib</p>
-  <a href="https://github.com/yourusername/stock-predictor" target="_blank">View on GitHub</a>
-</div>
-    <!-- Add more projects similarly -->
+      <h3>AI Chatbot for Customer Support</h3>
+      <p>A natural language processing-based chatbot trained to handle support queries for a telecom operator.</p>
+      <p><strong>Tech Stack:</strong> Python, Rasa, Flask, Dialogflow</p>
+      <a href="https://github.com/atharwaqas/ai-chatbot" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Network Automation Tool</h3>
+      <p>A CLI-based tool that automates switch/router configurations using Netmiko.</p>
+      <p><strong>Tech Stack:</strong> Python, Netmiko</p>
+      <a href="https://github.com/atharwaqas/net-automation" target="_blank">View on GitHub</a>
+    </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" data-aos="fade-up">
     <h2>Contact</h2>
-    <p>Reach out at <a href="mailto:your@email.com">your@email.com</a></p>
-    <p><a href="https://github.com/yourusername">GitHub</a> | <a href="https://linkedin.com/in/yourprofile">LinkedIn</a></p>
+    <p>Feel free to reach out via email or connect with me on LinkedIn.</p>
+    <p>
+      <a href="mailto:atharwaqas619@gmail.com">atharwaqas619@gmail.com</a><br />
+      <a href="https://github.com/atharwaqas" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/athar-waqas2000/" target="_blank">LinkedIn</a>
+    </p>
   </section>
 
-  <footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+    <footer>
     <p>© 2025 Athar Waqas</p>
   </footer>
 </body>
 </html>
+
+
+
