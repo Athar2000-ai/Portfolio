@@ -114,6 +114,12 @@ button[type="submit"]:hover {
   background-color: #374bd4;
 }
 
+footer{
+    padding: 0.6rem 1.2rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
   header, section {
     padding: 1rem;
